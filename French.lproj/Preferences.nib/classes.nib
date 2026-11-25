@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancelPressed = id; 
+                findDefaultOpenApp = id; 
+                findExecutable = id; 
+                okPressed = id; 
+            }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_bsdTarButton" = NSButton; 
+                "_bunzip2TextField" = NSTextField; 
+                "_bzip2TextField" = NSTextField; 
+                "_defaultOpenApp" = NSTextField; 
+                "_gunzipTextField" = NSTextField; 
+                "_gzipTextField" = NSTextField; 
+                "_lhaTextField" = NSTextField; 
+                "_lzxTextField" = NSTextField; 
+                "_panel" = NSPanel; 
+                "_rarTextField" = NSTextField; 
+                "_sevenZipTextField" = NSTextField; 
+                "_tarTextField" = NSTextField; 
+                "_unaceTextField" = NSTextField; 
+                "_unarjTextField" = NSTextField; 
+                "_unzipTextField" = NSTextField; 
+                "_xzTextField" = NSTextField; 
+                "_zipTextField" = NSTextField; 
+                "_zooTextField" = NSTextField; 
+                scrollView = NSScrollView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

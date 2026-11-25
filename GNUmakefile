@@ -26,9 +26,6 @@ Zipper_APPLICATION_ICON = zipper.tiff
 ADDITIONAL_GUI_LIBS += 
 
 Zipper_RESOURCE_FILES = \
-	Resources/MainMenu.gorm \
-	Resources/Preferences.gorm \
-	Resources/ZipperDocument.gorm \
 	Resources/FileIcon.tiff \
 	Resources/FileIcon_7z.tiff \
 	Resources/FileIcon_ace.tiff \
@@ -47,6 +44,15 @@ Zipper_RESOURCE_FILES = \
 	Resources/sort_descending.tiff \
 	Resources/zipper.tiff \
 
+#
+# Localization
+#
+Zipper_LANGUAGES = English French
+Zipper_LOCALIZED_RESOURCE_FILES = \
+MainMenu.gorm \
+Preferences.gorm \
+ZipperDocument.gorm \
+InfoPlist.strings
 
 Zipper_OBJC_FILES = \
 	AppDelegate.m \
