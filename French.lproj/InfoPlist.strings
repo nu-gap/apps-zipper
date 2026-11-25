@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+NSHumanReadableCopyright = "© 2008-2013 Projet des Applications GNUstep, GAP";
+ApplicationDescription = "Interface pour divers formats de compression";
+CopyrightDescription = "Application Distribuée sous la licence GPL v2 ou ultérieure";
